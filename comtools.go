@@ -13,7 +13,7 @@ func GetNowTimeStr() string {
 }
 func GetHostName() string {
 	name, _ := os.Hostname()
-	return name + "v1.0.0"
+	return name + "mxg" + "v1.0.0"
 }
 func GetLocalIP() string {
 	conn, err := net.Dial("udp", "8.8.8.8:53")
