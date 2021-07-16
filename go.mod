@@ -1,3 +1,3 @@
-module github.com/mxg80/comtools/v2
+module github.com/mxg80/comtools/v3
 
 go 1.16
